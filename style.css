@@ -1,16 +1,19 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #3b4911;
+  background-color: #85FFBD;
+  background-image: linear-gradient(169deg, #85FFBD 0%, #FFFB7D 100%);
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
   line-height:20px;
-  color: #F2F7A1;
+  color:#03001C;
   font-weight: 300px;
 }
 
 img {
   border-radius: 50%;
-  width: 150px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 3px black;
 }
 
 h1,h2 {
@@ -30,6 +33,7 @@ a:hover {
   font-weight: bolder;
   transition-duration: 0.2s;
   text-decoration: underline;
+  font-size:large;
 }
 
 #whats:hover {
@@ -37,9 +41,11 @@ a:hover {
   font-weight: bolder;
   transition-duration: 0.2s;
   text-decoration: underline;
+  font-size:xx-large;
 }
 #insta:hover {
   color: rgb(230, 99, 203);
+  font-size:xx-large;
   font-weight: bolder;
   transition-duration: 0.2s;
   text-decoration: underline;
@@ -49,6 +55,7 @@ a:hover {
   font-weight: bolder;
   transition-duration: 0.2s;
   text-decoration: underline;
+  font-size:xx-large;
 }
 
 .container {
@@ -59,12 +66,15 @@ a:hover {
 #present{
 text-align: right;
 }
+
 .card {
   box-shadow: 4px 4px 4px rgba(0,0,0,.5);
   border-radius: 20px;
   margin: 50px;
   padding: 50px;
-  background-color: #939B62;
+  background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
 }
 
 .list-inline li {
@@ -74,7 +84,7 @@ text-align: right;
 
 .list-inline {
   text-align: center;
-  padding: 15px;
+  padding: 5px;
 }
 
 @media (max-width: 960px) {
@@ -96,4 +106,13 @@ text-align: right;
   .container {
     width: 300px;
   }
+}
+.zoom {
+  transition: transform 0.5s; /* Animation */
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
