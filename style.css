@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #3b4911;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height:20px;
+  color: #F2F7A1;
+  font-weight: 300px;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+h1,h2 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+
+a {
+  color: #F2F7A1;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  font-weight: bolder;
+  transition-duration: 0.2s;
+  text-decoration: underline;
+}
+
+#whats:hover {
+  color: rgb(89, 238, 9);
+  font-weight: bolder;
+  transition-duration: 0.2s;
+  text-decoration: underline;
+}
+#insta:hover {
+  color: rgb(230, 99, 203);
+  font-weight: bolder;
+  transition-duration: 0.2s;
+  text-decoration: underline;
+}
+#linkedin:hover {
+  color: rgb(18, 41, 212);
+  font-weight: bolder;
+  transition-duration: 0.2s;
+  text-decoration: underline;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#present{
+text-align: right;
+}
+.card {
+  box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+  border-radius: 20px;
+  margin: 50px;
+  padding: 50px;
+  background-color: #939B62;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: x-large;
+}
+
+.list-inline {
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
